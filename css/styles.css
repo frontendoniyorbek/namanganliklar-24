@@ -180,6 +180,61 @@ h6 {
 	opacity: 0.6;
 }
 
+/* NAVBAR START */
+.sitenav {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.sitenav-list {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+}
+
+.sitenav-item a {
+	text-decoration: none;
+	color: #7f7f7f;
+	font-size: 18px;
+	font-weight: 500;
+	transition: all 0.4s ease;
+}
+
+.sitenav-item a:hover {
+	color: #7296ec;
+}
+
+.sitenav-item a:active {
+	opacity: 0.6;
+}
+
+.sitenav-hr {
+	margin-bottom: 40px;
+	border: none;
+	border: 1px solid #d1d1d1;
+}
+/* NAVBAR END */
+
+/* aside start*/
+.aside {
+	margin-bottom: 50px;
+}
+
+.aside a {
+	transition: all 0.4s ease;
+}
+
+.aside a:hover {
+	opacity: 0.8;
+}
+
+.aside a:active {
+	opacity: 0.6;
+}
+/* aside end*/
+
 main {
 	flex-grow: 1;
 	background-color: gold;
