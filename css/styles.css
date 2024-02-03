@@ -237,5 +237,76 @@ h6 {
 
 main {
 	flex-grow: 1;
-	background-color: gold;
+}
+
+.main-grid-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr;
+	gap: 15px;
+}
+
+.main-grid-item {
+	background-color: #f6f6f6;
+	padding: 20px 18px 15px;
+	border-radius: 15px;
+}
+
+.main-grid-link {
+	text-decoration: none;
+}
+
+.main-grid-link h2 {
+	display: inline-block;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 26px;
+	color: #000;
+	margin-bottom: 10px;
+	transition: all 0.4s ease;
+}
+
+.main-grid-link h2:hover {
+	color: #7296ec;
+}
+
+.main-grid-link h2:active {
+	opacity: 0.6;
+}
+
+.main-grid-text {
+	color: #4a4b4c;
+	line-height: 22px;
+	margin-bottom: 15px;
+}
+
+.main-grid-item img {
+	width: 360px;
+	height: 165px;
+	object-fit: cover;
+	margin-bottom: 15px;
+}
+
+.main-grid-bottom {
+	display: flex;
+	align-items: center;
+}
+
+.main-grid-bottom img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 0;
+	width: 20px;
+	height: 20px;
+	object-fit: contain;
+	margin-right: 10px;
+}
+
+.main-grid-bottom p {
+	color: #5e5f61;
+	font-size: 12px;
+	line-height: 14px;
 }
