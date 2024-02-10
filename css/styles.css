@@ -246,6 +246,7 @@ main {
 	display: grid;
 	grid-template-columns: 1fr 1fr 2fr;
 	gap: 15px;
+	padding-bottom: 40px;
 }
 
 .main-grid-item {
@@ -309,4 +310,40 @@ main {
 	color: #5e5f61;
 	font-size: 12px;
 	line-height: 14px;
+}
+
+/* notification */
+.notification {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	padding-left: 29px;
+	padding-right: 71px;
+	margin-bottom: 60px;
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+.notification-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 26px;
+	color: #000000;
+}
+
+.notification-btn {
+	text-decoration: none;
+	color: #fff;
+	background-color: #f78b3b;
+	border: 2px solid transparent;
+}
+
+.notification-btn:hover {
+	border: 2px solid #f78b3b;
+	color: #f78b3b;
 }
